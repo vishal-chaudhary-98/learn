@@ -26,6 +26,7 @@
                 <label for = "cpswd">confirm password :</label>
                 <input type = "password" id = "cpswd" name = "cpswd" placeholder = "****" />
                 <br><br>
+                <input type="hidden" name="register" value="1" />
                 <input type = "submit" name = "submit" />
         </form>
         <p>Already a user ? <a href = "login.php">Signin here!</a></p>
