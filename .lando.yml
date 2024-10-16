@@ -2,3 +2,9 @@ name: project
 recipe: lamp
 config:
   webroot: .
+services:
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database
+    portforward: true

@@ -7,24 +7,24 @@
         <center>
             <br>
             <h3>Register yourself below :</h3><br>
-            <form action= "" method= "post">
-            <label for = "Full name">Full name :</label>
-                <input type ="text" name = "fname" placeholder = "Enter your name" required/>
+            <form action= "DB/DB-alter.php" method= "post">
+            <label for = "fname">Full name :</label>
+                <input type ="text" id ="fname" name = "fname" placeholder = "Enter your name" />
                 <br><br>
-                <label for = "email">E-mail :</label>
-                <input type ="email" name = "mail" placeholder = "name@example.com" required/>
+                <label for = "mail">E-mail :</label>
+                <input type ="email" id = "mail" name = "mail" placeholder = "name@example.com" />
                 <br><br>
-                <label for = "Contact">Contact :</label>
-                <input type ="number" name = "cont" placeholder = "Enter your contact number" required/>
+                <label for = "uname">User name :</label>
+                <input type ="text" id = "uname" name = "uname" placeholder = "Enter your username" />
                 <br><br>
-                <label for = "User name">User name :</label>
-                <input type ="text" name = "uname" placeholder = "Enter your username" required/>
+                <label for = "cont">Contact :</label>
+                <input type ="tel" id = "cont" name = "cont" placeholder = "Enter your contact number" />
                 <br><br>
-                <label for = "User password">User password :</label>
-                <input type = "password" name = "pswd" placeholder = "****"required />
+                <label for = "pswd">User password :</label>
+                <input type = "password" id = "pswd" name = "pswd" placeholder = "****" />
                 <br><br>
-                <label for = "confirm password">confirm password :</label>
-                <input type = "password" name = "cpswd" placeholder = "****"required />
+                <label for = "cpswd">confirm password :</label>
+                <input type = "password" id = "cpswd" name = "cpswd" placeholder = "****" />
                 <br><br>
                 <input type = "submit" name = "submit" />
         </form>
